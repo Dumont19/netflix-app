@@ -1,10 +1,5 @@
 # Netflix React App
 
-_By Bonieky Lacerda_
-
-> **https://www.youtube.com/watch?v=tBweoUiMsDg**
-
-
 
 ## Featured area
 
