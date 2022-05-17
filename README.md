@@ -14,7 +14,7 @@ _By Bonieky Lacerda_
 
 ## List of movies and series
 
-![image1](Movie-row.png)
+![movie-row](https://user-images.githubusercontent.com/95390248/168711879-187af28a-a1d2-473e-a479-73e51d15fac4.png)
 
 
 
