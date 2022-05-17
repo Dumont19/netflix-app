@@ -119,5 +119,9 @@ This component is responsible for displaying lists of:
 
 It has the functionality to scroll right and left.
 
+## Responsivity
+
+This application is fully responsive.
+
 
 
