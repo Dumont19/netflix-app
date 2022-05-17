@@ -116,3 +116,8 @@ This component is responsible for displaying lists of:
 * Romance: ***romance***
 * Documentários: ***documentary***
 
+
+It has the functionality to scroll right and left.
+
+###
+
