@@ -8,7 +8,7 @@ _By Bonieky Lacerda_
 
 ## Featured area
 
-![image1](Featured-movie.png)
+![featured-movie](https://user-images.githubusercontent.com/95390248/168711639-6b0da668-590d-4640-a13f-539d3ceddba5.png)
 
 
 
