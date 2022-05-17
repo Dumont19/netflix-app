@@ -6,7 +6,7 @@ _By Bonieky Lacerda_
 
 
 
-## featured Area
+## Featured area
 
 ![image1](Featured-movie.png)
 
