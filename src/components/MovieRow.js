@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
+
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore'
 import NavigateNextIcon from '@material-ui/icons/NavigateNext'
 import './MovieRow.css'
+import ReactPlayer from 'react-player'
+import movieTrailer from 'movie-trailer'
 
 export default ({title, items}) => {
-    const [scrollX, setscrollX] = useState(0);
+    const [scrollX, setscrollX] = useState(0)
+    const [trailerUrl, setTrailerUrl] = React.useState('')
 
     const handleLeftArrow = () => {
         let x = scrollX + Math.round(window.innerWidth / 2);
@@ -12,6 +16,21 @@ export default ({title, items}) => {
             x = 0
         }
         setscrollX(x)
+    }
+
+    const handleTrailer = (item) => {
+        if (trailerUrl) {
+            setTrailerUrl('')
+        } else {
+            movieTrailer(item.name || item.title || item.original_title || '')
+            .then(url => {
+                setTrailerUrl(url)
+
+            })
+            .catch(error => {
+                console.log('Error fetching movie trailer', error);
+            })
+        }
     }
 
     const handleRightArrow = () => {
@@ -40,11 +59,12 @@ export default ({title, items}) => {
                 }}>
                     {items.results.length > 0 && items.results.map((item, key) => (
                         <div key={key} className="movieRow--item">
-                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title} />
+                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title} onClick={() => handleTrailer(item)} />
                         </div>
                     ))}
                 </div>
             </div>
+                {trailerUrl && <ReactPlayer url={trailerUrl} playing={true} controls={true}/>}
         </div>
     )
 }
