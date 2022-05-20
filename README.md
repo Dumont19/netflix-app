@@ -11,6 +11,10 @@
 
 ![movie-row](https://user-images.githubusercontent.com/95390248/168711879-187af28a-a1d2-473e-a479-73e51d15fac4.png)
 
+## Movie trailer
+
+![movie-trailer](https://user-images.githubusercontent.com/95390248/169429224-4c389fe8-1ded-4169-ae76-25b7cec0e779.png)
+
 
 
 ## :pen: API - JSON - Test API
@@ -110,6 +114,9 @@ This component is responsible for displaying lists of:
 * Terror: ***horror***
 * Romance: ***romance***
 * Documentários: ***documentary***
+
+This component also show the trailer of the film. Just click on image one time, and trailer appears
+in one player with controls. For turn off trailer, just click on image again and it be closed.
 
 
 It has the functionality to scroll right and left.
