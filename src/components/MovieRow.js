@@ -64,7 +64,7 @@ export default ({title, items}) => {
                     ))}
                 </div>
             </div>
-                {trailerUrl && <ReactPlayer url={trailerUrl} playing={true} controls={true}/>}
+                <div className="movie--trailer">{trailerUrl && <ReactPlayer url={trailerUrl} playing={true} controls={true}/>}</div>
         </div>
     )
 }

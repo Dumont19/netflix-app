@@ -60,7 +60,7 @@ export default () => {
       </section>
 
       <footer>
-        <p>Coded by <a href='https://github.com/Dumont19' target='_blank'>Matheus Dumont</a> guided by <a href="https://github.com/bonieky" target="_blank">Bonieky Larceda</a> during the live: <span role="img" aria-label="fogo">🔥</span> Clone do NETFLIX em REACTJS para Iniciantes.</p> 
+        <p>Coded by <a href='https://github.com/Dumont19' target='_blank'>Matheus Dumont</a></p> 
         <p>All images rights to <a href="https://www.netflix.com/br/">Netflix</a></p>
         <p>All data from <a href="https://www.themoviedb.org/?language=pt-BR">Themoviedb.org</a></p>
       </footer>
