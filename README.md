@@ -13,7 +13,8 @@
 
 ## Movie trailer
 
-![movie-trailer](https://user-images.githubusercontent.com/95390248/169429224-4c389fe8-1ded-4169-ae76-25b7cec0e779.png)
+
+![movie-trailer](https://user-images.githubusercontent.com/95390248/169439142-2c51fa85-9804-4e4f-bda3-aac952030fce.png)
 
 
 
@@ -119,11 +120,15 @@ This component also show the trailer of the film. Just click on image one time, 
 in one player with controls. For turn off trailer, just click on image again and it be closed.
 
 
-It has the functionality to scroll right and left.
+It has the scroll right and left.
 
 ## 📱 Responsivity
 
 This application is fully responsive.
+
+## :globe_with_meridians: Hosting 
+
+Use the following address to see the hosted project and test its features: https://netflix-app-e5704.firebaseapp.com
 
 
 
