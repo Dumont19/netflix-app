@@ -5,7 +5,7 @@ import MovieRow from './components/MovieRow'
 import FeaturedMovie from './components/FeaturedMovie'
 import Header from './components/Header'
 
-import './App.css';
+import './App.css'
 
 export default () => {
 
@@ -23,11 +23,11 @@ export default () => {
       let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
       let chosen = originals[0].items.results[randomChosen];
       let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'tv')
-      setFeaturedData(chosenInfo);
+      setFeaturedData(chosenInfo)
     }
     
-    loadAll();
-  }, []);
+    loadAll()
+  }, [])
 
   useEffect(() => {
     const scroolListener = () => {
@@ -61,8 +61,8 @@ export default () => {
 
       <footer>
         <p>Coded by <a href='https://github.com/Dumont19' target='_blank'>Matheus Dumont</a></p> 
-        <p>All images rights to <a href="https://www.netflix.com/br/">Netflix</a></p>
-        <p>All data from <a href="https://www.themoviedb.org/?language=pt-BR">Themoviedb.org</a></p>
+        <p>All images rights to <a href="https://www.netflix.com/br/" target='_blank'>Netflix</a></p>
+        <p>All data from <a href="https://www.themoviedb.org/?language=pt-BR" target='_blank'>Themoviedb.org</a></p>
       </footer>
       
       {movieList.length <= 0 &&
