@@ -1,6 +1,8 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 
 import './FeaturedMovie.css'
+
 
 export default ({item}) => {
     let firstDate = new Date(item.first_air_date);
@@ -11,7 +13,7 @@ export default ({item}) => {
 
     let description = item.overview;
     if (description.length > 200) {
-        description = description.substring(0, 200)+'...'
+        description = description.substring(0, 200)+' ...'
     }
 
     return (
@@ -24,7 +26,7 @@ export default ({item}) => {
                 <div className="featured--horizontal">
                     <div className="featured--name">{item.original_name}</div>
                     <div className="featured--info">
-                        <div className="featured--points">{item.vote_average} pontos</div>
+                        <div className="featured--points">{item.vote_average.toFixed(1)} pontos</div>
                         <div className="featured--year">{firstDate.getFullYear()}</div>
                         <div className="featured--seasons">{item.number_of_seasons} temporada{item.number_of_seasons !== 1 ? 's' : ''}</div>
                     </div>

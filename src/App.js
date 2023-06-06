@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React, { useEffect, useState } from 'react'
 
 import Tmdb from './Tmdb'
@@ -60,9 +61,9 @@ export default () => {
       </section>
 
       <footer>
-        <p>Coded by <a href='https://github.com/Dumont19' target='_blank'>Matheus Dumont</a></p> 
-        <p>All images rights to <a href="https://www.netflix.com/br/" target='_blank'>Netflix</a></p>
-        <p>All data from <a href="https://www.themoviedb.org/?language=pt-BR" target='_blank'>Themoviedb.org</a></p>
+        <p>Coded by <a href='https://github.com/Dumont19' target='_blank' rel='noreferrer'>Matheus Dumont</a></p> 
+        <p>All images rights to <a href="https://www.netflix.com/br/" target='_blank' rel='noreferrer'>Netflix</a></p>
+        <p>All data from <a href="https://www.themoviedb.org/?language=pt-BR" target='_blank' rel='noreferrer'>Themoviedb.org</a></p>
       </footer>
       
       {movieList.length <= 0 &&
