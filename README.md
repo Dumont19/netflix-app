@@ -32,12 +32,6 @@
 
 - [x] **http://resttesttest.com** 
 
-> **Icons from Material-UI**
-
-- [x] **https://material-ui.com/pt/components/material-icons/**
-
-
-
 ## :tv: Project
 
 This project is a simple reproduction of **NetFlix** for studying React, it does not contain all the features.
@@ -128,7 +122,7 @@ This application is fully responsive.
 
 ## :globe_with_meridians: Hosting 
 
-Use the following address to see the hosted project and test its features: https://netflix-app-e5704.firebaseapp.com
+Use the following address to see the hosted project and test its features: https://netflix-app-dumont19.vercel.app
 
 
 
